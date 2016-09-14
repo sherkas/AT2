@@ -765,7 +765,7 @@ function initializeAutoTrimps() {
     loadPageVariables();
 
     var script = document.getElementById('AutoTrimps-script')
-      , base = 'https://zininzinin.github.io/AutoTrimps'
+      , base = 'https://github.com/sherkas/AT2'
       ;
     if (script !== null) {
         base = script.getAttribute('src').replace(/\/AutoTrimps2\.js$/, '');
